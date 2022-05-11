@@ -1,14 +1,13 @@
-$('.carousel').carousel()
 
 $(ducument).ready(function()  {
 
   // Progress bar
-  let containerA = document.getElementById("circleA")
+  let containerA = document.getElementById("circleA");
 
   let circleA = new ProgressBar.Circle(containerA, {
 
     color: "#64daf9",
-    strokeWidth: 8,
+    stroke: 8,
     duration: 1400,
     from: { color: '#AAA'},
     to: { color: '#65daf9'},
